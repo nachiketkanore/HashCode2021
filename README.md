@@ -3,6 +3,7 @@ Team repository for Pretests Passed
 
 Add any useful links here:
 
+# Threading for multitasking:
     If 2 or more independent tasks - 
 
     #include <thread.h>
@@ -18,3 +19,9 @@ Add any useful links here:
     }
 
     Compilation - g++ file.cpp -pthread
+   
+# Bash Script to run all inputs and generate corresponding outputs:
+for file in a b c d e; do
+	echo Working on input : $file
+	./sol < $file.in > $file.out
+
