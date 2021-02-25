@@ -21,8 +21,10 @@ Add any useful links here:
     Compilation - g++ file.cpp -pthread
    
 # Bash Script to run all inputs and generate corresponding outputs:
+
 Code is in sol.cpp
 and input files are : a.in b.in c.in ...
+
 	g++ sol.cpp -o sol
 	for file in a b c d e; do
 		echo Working on input : $file
